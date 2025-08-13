@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Organisasi Kelas X-E3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #75c8ff;
+            color: #083344;
+        }
+        
+        .card {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 83, 128, 0.1);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 83, 128, 0.2);
+        }
+        
+        .leader-card {
+            background: linear-gradient(135deg, #0369a1 0%, #0ea5e9 100%);
+            color: white;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50%;
+            height: 4px;
+            background: #0ea5e9;
+            border-radius: 2px;
+        }
+        
+        .supervisor-card {
+            background: linear-gradient(135deg, #0c4a6e 0%, #0284c7 100%);
+            color: white;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-sky-900 mb-3">STRUKTUR ORGANISASI</h1>
+            <h2 class="text-3xl font-semibold text-sky-700">KELAS X-E3</h2>
+            <div class="mt-4 w-20 h-1 bg-sky-500 rounded-full mx-auto"></div>
+        </div>
+
+        <!-- Wali Kelas -->
+        <div class="mb-16 text-center">
+            <h3 class="section-title text-2xl font-semibold text-sky-800">WALI KELAS</h3>
+            <div class="max-w-md mx-auto">
+                <div class="card leader-card rounded-xl p-6 text-center">
+                    <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-white mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 17.11.02 (1).jpeg" alt="WhatsApp Image 2025-08-13 at 17.11.02 (1).jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-2xl font-bold">Wali Kelas</h4>
+                    <p class="text-white/90 text-xl mb-3">Ms. Nita Anggraeni, S.Pd.</p>
+                    <div class="bg-white/30 rounded-full px-4 py-2 text-sm inline-block">Guru B.Inggris</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ketua & Wakil -->
+        <div class="mb-16">
+            <h3 class="section-title text-2xl font-semibold text-sky-800">PIMPINAN KELAS</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Ketua Kelas -->
+                <div class="card leader-card rounded-xl p-6 text-center">
+                    <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 17.11.01 (1).jpeg" alt="WhatsApp Image 2025-08-13 at 17.11.01 (1).jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xl font-bold">Ketua Kelas</h4>
+                    <p class="text-white/90 mb-2">Bayu Ramadhani</p>
+                    <div class="bg-white/20 rounded-full px-4 py-1 text-sm inline-block">Pemimpin Regu</div>
+                </div>
+                
+                <!-- Wakil Ketua -->
+                <div class="card leader-card rounded-xl p-6 text-center">
+                    <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 18.40.41.jpeg" alt="WhatsApp Image 2025-08-13 at 18.40.41.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xl font-bold">Wakil Ketua</h4>
+                    <p class="text-white/90 mb-2">Natasya Syarifa Zahra</p>
+                    <div class="bg-white/20 rounded-full px-4 py-1 text-sm inline-block">Pendamping Pemimpin</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sekretaris & Bendahara -->
+        <div class="mb-16">
+            <h3 class="section-title text-2xl font-semibold text-sky-800">ADMINISTRASI</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Sekretaris 1 -->
+                <div class="card bg-white rounded-xl p-6 text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 17.10.19 (3).jpeg" alt="WhatsApp Image 2025-08-13 at 17.10.19 (3).jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-lg font-bold text-sky-800">Sekretaris 1</h4>
+                    <p class="text-gray-600 mb-2">Resti Febriani</p>
+                    <div class="bg-sky-100 text-sky-800 rounded-full px-4 py-1 text-sm inline-block">Pencatat Data</div>
+                </div>
+                
+                <!-- Sekretaris 2 -->
+                <div class="card bg-white rounded-xl p-6 text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 17.10.19 (2).jpeg" alt="WhatsApp Image 2025-08-13 at 17.10.19 (2).jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-lg font-bold text-sky-800">Sekretaris 2</h4>
+                    <p class="text-gray-600 mb-2">Mela Fajria</p>
+                    <div class="bg-sky-100 text-sky-800 rounded-full px-4 py-1 text-sm inline-block">Pencatat Data</div>
+                </div>
+                
+                <!-- Bendahara 1 -->
+                <div class="card bg-white rounded-xl p-6 text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 17.11.03 (1).jpeg" alt="WhatsApp Image 2025-08-13 at 17.11.03 (1).jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-lg font-bold text-sky-800">Bendahara 1</h4>
+                    <p class="text-gray-600 mb-2">Sindi Sulistiawaty</p>
+                    <div class="bg-sky-100 text-sky-800 rounded-full px-4 py-1 text-sm inline-block">Pengelola Keuangan</div>
+                </div>
+                
+                <!-- Bendahara 2 -->
+                <div class="card bg-white rounded-xl p-6 text-center">
+                    <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-4">
+                        <img src="WhatsApp Image 2025-08-13 at 17.42.19.jpeg" alt="WhatsApp Image 2025-08-13 at 17.42.19.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-lg font-bold text-sky-800">Bendahara 2</h4>
+                    <p class="text-gray-600 mb-2">Zherlina Azalya S</p>
+                    <div class="bg-sky-100 text-sky-800 rounded-full px-4 py-1 text-sm inline-block">Pengelola Keuangan</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Seksi-seksi -->
+        <div class="mb-16">
+            <h3 class="section-title text-2xl font-semibold text-sky-800">SEKSI-SEKSI</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Kebersihan -->
+                <div class="card bg-white rounded-xl p-5 text-center">
+                    <div class="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-3">
+                        <img src="WhatsApp Image 2025-08-13 at 19.11.21.jpeg" alt="WhatsApp Image 2025-08-13 at 19.11.21.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-sky-800">Seksi Kebersihan</h4>
+                    <p class="text-sm text-gray-600 mb-2">Eliza Aprilia</p>
+                    <div class="bg-sky-50 text-sky-700 rounded-full px-3 py-1 text-xs inline-block">Tim: 1 Orang</div>
+                </div>
+                
+                <!-- Kerohanian -->
+                <div class="card bg-white rounded-xl p-5 text-center">
+                    <div class="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-3">
+                        <img src="WhatsApp Image 2025-08-13 at 19.15.04.jpeg" alt="WhatsApp Image 2025-08-13 at 19.15.04.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-sky-800">Seksi Keagamaan</h4>
+                    <p class="text-sm text-gray-600 mb-2">Siti Fauziah</p>
+                    <div class="bg-sky-50 text-sky-700 rounded-full px-3 py-1 text-xs inline-block">Tim: 1 Orang</div>
+                </div>
+                
+                <!-- Kesenian -->
+                <div class="card bg-white rounded-xl p-5 text-center">
+                    <div class="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-3">
+                        <img src="WhatsApp Image 2025-08-13 at 19.13.52.jpeg" alt="WhatsApp Image 2025-08-13 at 19.13.52.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-sky-800">Seksi Keamanan</h4>
+                    <p class="text-sm text-gray-600 mb-2">Rafi Rapsanjani</p>
+                    <div class="bg-sky-50 text-sky-700 rounded-full px-3 py-1 text-xs inline-block">Tim: 1 Orang</div>
+                </div>
+                
+                <!-- Olahraga -->
+                <div class="card bg-white rounded-xl p-5 text-center">
+                    <div class="w-20 h-20 mx-auto rounded-full overflow-hidden border-4 border-sky-100 mb-3">
+                        <img src="WhatsApp Image 2025-08-13 at 19.09.01.jpeg" alt="WhatsApp Image 2025-08-13 at 19.09.01.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-sky-800">Seksi Olahraga</h4>
+                    <p class="text-sm text-gray-600 mb-2">Davinsha</p>
+                    <div class="bg-sky-50 text-sky-700 rounded-full px-3 py-1 text-xs inline-block">Tim: 1 Orang</div>
+                </div>
+                
+            
+                </div>
+            </div>
+        </div>
+        
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Animasi scroll halus untuk mobile
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
